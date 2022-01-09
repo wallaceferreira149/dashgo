@@ -1,0 +1,156 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "./src/context/SidebarDrawerContext.tsx":
+/*!**********************************************!*\
+  !*** ./src/context/SidebarDrawerContext.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SidebarDrawerProvider\": () => (/* binding */ SidebarDrawerProvider),\n/* harmony export */   \"useSidebarDrawer\": () => (/* binding */ useSidebarDrawer)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nconst SidebarDrawerContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_3__.createContext)({\n});\nfunction SidebarDrawerProvider({ children  }) {\n    const disclosure = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useDisclosure)();\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    (0,react__WEBPACK_IMPORTED_MODULE_3__.useEffect)(()=>{\n        disclosure.onClose();\n    }, [\n        router.asPath\n    ]);\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SidebarDrawerContext.Provider, {\n        value: disclosure,\n        __source: {\n            fileName: \"/home/wallace/REACT/dashgo/src/context/SidebarDrawerContext.tsx\",\n            lineNumber: 25,\n            columnNumber: 5\n        },\n        __self: this,\n        children: children\n    }));\n}\nconst useSidebarDrawer = ()=>(0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(SidebarDrawerContext)\n;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dC9TaWRlYmFyRHJhd2VyQ29udGV4dC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBb0U7QUFDN0I7QUFDZ0M7QUFRdkUsS0FBSyxDQUFDSyxvQkFBb0IsaUJBQUdILG9EQUFhLENBQUMsQ0FBQztBQUFBLENBQUM7QUFFdEMsU0FBU0kscUJBQXFCLENBQUMsQ0FBQyxDQUNyQ0MsUUFBUSxFQUNrQixDQUFDLEVBQUUsQ0FBQztJQUM5QixLQUFLLENBQUNDLFVBQVUsR0FBR1IsK0RBQWE7SUFFaEMsS0FBSyxDQUFDUyxNQUFNLEdBQUdSLHNEQUFTO0lBRXhCRyxnREFBUyxLQUFPLENBQUM7UUFDZkksVUFBVSxDQUFDRSxPQUFPO0lBQ3BCLENBQUMsRUFBRSxDQUFDRDtRQUFBQSxNQUFNLENBQUNFLE1BQU07SUFBQSxDQUFDO0lBRWxCLE1BQU0sc0VBQ0hOLG9CQUFvQixDQUFDTyxRQUFRO1FBQUNDLEtBQUssRUFBRUwsVUFBVTs7Ozs7OztrQkFDN0NELFFBQVE7O0FBR2YsQ0FBQztBQUVNLEtBQUssQ0FBQ08sZ0JBQWdCLE9BQVNYLGlEQUFVLENBQUNFLG9CQUFvQiIsInNvdXJjZXMiOlsid2VicGFjazovL2Rhc2hnby8uL3NyYy9jb250ZXh0L1NpZGViYXJEcmF3ZXJDb250ZXh0LnRzeD8xNmYwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZURpc2Nsb3N1cmUsIFVzZURpc2Nsb3N1cmVQcm9wcyB9IGZyb20gJ0BjaGFrcmEtdWkvcmVhY3QnO1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInO1xuaW1wb3J0IHsgY3JlYXRlQ29udGV4dCwgUmVhY3ROb2RlLCB1c2VDb250ZXh0LCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7XG5cbmludGVyZmFjZSBTaWRlYmFyRHJhd2VyUHJvdmlkZXJQcm9wcyB7XG4gIGNoaWxkcmVuOiBSZWFjdE5vZGU7XG59XG5cbnR5cGUgU2lkZWJhckRyYXdlckNvbnRleHREYXRhID0gVXNlRGlzY2xvc3VyZVByb3BzO1xuXG5jb25zdCBTaWRlYmFyRHJhd2VyQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoe30gYXMgU2lkZWJhckRyYXdlckNvbnRleHREYXRhKTtcblxuZXhwb3J0IGZ1bmN0aW9uIFNpZGViYXJEcmF3ZXJQcm92aWRlcih7XG4gIGNoaWxkcmVuLFxufTogU2lkZWJhckRyYXdlclByb3ZpZGVyUHJvcHMpIHtcbiAgY29uc3QgZGlzY2xvc3VyZSA9IHVzZURpc2Nsb3N1cmUoKTtcblxuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIGRpc2Nsb3N1cmUub25DbG9zZSgpO1xuICB9LCBbcm91dGVyLmFzUGF0aF0pO1xuXG4gIHJldHVybiAoXG4gICAgPFNpZGViYXJEcmF3ZXJDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXtkaXNjbG9zdXJlfT5cbiAgICAgIHtjaGlsZHJlbn1cbiAgICA8L1NpZGViYXJEcmF3ZXJDb250ZXh0LlByb3ZpZGVyPlxuICApO1xufVxuXG5leHBvcnQgY29uc3QgdXNlU2lkZWJhckRyYXdlciA9ICgpID0+IHVzZUNvbnRleHQoU2lkZWJhckRyYXdlckNvbnRleHQpO1xuIl0sIm5hbWVzIjpbInVzZURpc2Nsb3N1cmUiLCJ1c2VSb3V0ZXIiLCJjcmVhdGVDb250ZXh0IiwidXNlQ29udGV4dCIsInVzZUVmZmVjdCIsIlNpZGViYXJEcmF3ZXJDb250ZXh0IiwiU2lkZWJhckRyYXdlclByb3ZpZGVyIiwiY2hpbGRyZW4iLCJkaXNjbG9zdXJlIiwicm91dGVyIiwib25DbG9zZSIsImFzUGF0aCIsIlByb3ZpZGVyIiwidmFsdWUiLCJ1c2VTaWRlYmFyRHJhd2VyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/context/SidebarDrawerContext.tsx\n");
+
+/***/ }),
+
+/***/ "./src/pages/_app.tsx":
+/*!****************************!*\
+  !*** ./src/pages/_app.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-query */ \"react-query\");\n/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_query__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_query_devtools__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-query/devtools */ \"react-query/devtools\");\n/* harmony import */ var react_query_devtools__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_query_devtools__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/theme */ \"./src/styles/theme.ts\");\n/* harmony import */ var _context_SidebarDrawerContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../context/SidebarDrawerContext */ \"./src/context/SidebarDrawerContext.tsx\");\n/* harmony import */ var _services_mirage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/mirage */ \"./src/services/mirage/index.ts\");\n/* harmony import */ var _services_queryClient__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/queryClient */ \"./src/services/queryClient.ts\");\n\n\n\n\n\n\n\n\nif (true) {\n    (0,_services_mirage__WEBPACK_IMPORTED_MODULE_6__.makeServer)();\n}\nfunction MyApp({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_query__WEBPACK_IMPORTED_MODULE_2__.QueryClientProvider, {\n        client: _services_queryClient__WEBPACK_IMPORTED_MODULE_7__.queryClient,\n        __source: {\n            fileName: \"/home/wallace/REACT/dashgo/src/pages/_app.tsx\",\n            lineNumber: 18,\n            columnNumber: 5\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {\n                theme: _styles_theme__WEBPACK_IMPORTED_MODULE_4__.theme,\n                __source: {\n                    fileName: \"/home/wallace/REACT/dashgo/src/pages/_app.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 7\n                },\n                __self: this,\n                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_context_SidebarDrawerContext__WEBPACK_IMPORTED_MODULE_5__.SidebarDrawerProvider, {\n                    __source: {\n                        fileName: \"/home/wallace/REACT/dashgo/src/pages/_app.tsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    },\n                    __self: this,\n                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {\n                        ...pageProps,\n                        __source: {\n                            fileName: \"/home/wallace/REACT/dashgo/src/pages/_app.tsx\",\n                            lineNumber: 21,\n                            columnNumber: 11\n                        },\n                        __self: this\n                    })\n                })\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_query_devtools__WEBPACK_IMPORTED_MODULE_3__.ReactQueryDevtools, {\n                __source: {\n                    fileName: \"/home/wallace/REACT/dashgo/src/pages/_app.tsx\",\n                    lineNumber: 25,\n                    columnNumber: 7\n                },\n                __self: this\n            })\n        ]\n    }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFFaUQ7QUFDYTtBQUNMO0FBRWxCO0FBQ2dDO0FBQ3hCO0FBQ007QUFFckQsRUFBRSxFQVhGLElBVzBDLEVBQUUsQ0FBQztJQUMzQ0ssNERBQVU7QUFDWixDQUFDO1NBRVFFLEtBQUssQ0FBQyxDQUFDLENBQUNDLFNBQVMsR0FBRUMsU0FBUyxFQUFXLENBQUMsRUFBRSxDQUFDO0lBQ2xELE1BQU0sdUVBQ0hSLDREQUFtQjtRQUFDUyxNQUFNLEVBQUVKLDhEQUFXOzs7Ozs7OztpRkFDckNOLDREQUFjO2dCQUFDRyxLQUFLLEVBQUVBLGdEQUFLOzs7Ozs7OytGQUN6QkMsZ0ZBQXFCOzs7Ozs7O21HQUNuQkksU0FBUzsyQkFBS0MsU0FBUzs7Ozs7Ozs7OztpRkFJM0JQLG9FQUFrQjs7Ozs7Ozs7OztBQUd6QixDQUFDO0FBRUQsaUVBQWVLLEtBQUssRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Rhc2hnby8uL3NyYy9wYWdlcy9fYXBwLnRzeD9mOWQ2Il0sInNvdXJjZXNDb250ZW50IjpbIi8qIGVzbGludC1kaXNhYmxlIHJlYWN0L2pzeC1wcm9wcy1uby1zcHJlYWRpbmcgKi9cbmltcG9ydCB7IEFwcFByb3BzIH0gZnJvbSAnbmV4dC9hcHAnO1xuaW1wb3J0IHsgQ2hha3JhUHJvdmlkZXIgfSBmcm9tICdAY2hha3JhLXVpL3JlYWN0JztcbmltcG9ydCB7IFF1ZXJ5Q2xpZW50LCBRdWVyeUNsaWVudFByb3ZpZGVyIH0gZnJvbSAncmVhY3QtcXVlcnknO1xuaW1wb3J0IHsgUmVhY3RRdWVyeURldnRvb2xzIH0gZnJvbSAncmVhY3QtcXVlcnkvZGV2dG9vbHMnO1xuXG5pbXBvcnQgeyB0aGVtZSB9IGZyb20gJy4uL3N0eWxlcy90aGVtZSc7XG5pbXBvcnQgeyBTaWRlYmFyRHJhd2VyUHJvdmlkZXIgfSBmcm9tICcuLi9jb250ZXh0L1NpZGViYXJEcmF3ZXJDb250ZXh0JztcbmltcG9ydCB7IG1ha2VTZXJ2ZXIgfSBmcm9tICcuLi9zZXJ2aWNlcy9taXJhZ2UnO1xuaW1wb3J0IHsgcXVlcnlDbGllbnQgfSBmcm9tICcuLi9zZXJ2aWNlcy9xdWVyeUNsaWVudCc7XG5cbmlmIChwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ2RldmVsb3BtZW50Jykge1xuICBtYWtlU2VydmVyKCk7XG59XG5cbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfTogQXBwUHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8UXVlcnlDbGllbnRQcm92aWRlciBjbGllbnQ9e3F1ZXJ5Q2xpZW50fT5cbiAgICAgIDxDaGFrcmFQcm92aWRlciB0aGVtZT17dGhlbWV9PlxuICAgICAgICA8U2lkZWJhckRyYXdlclByb3ZpZGVyPlxuICAgICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICAgICAgPC9TaWRlYmFyRHJhd2VyUHJvdmlkZXI+XG4gICAgICA8L0NoYWtyYVByb3ZpZGVyPlxuXG4gICAgICA8UmVhY3RRdWVyeURldnRvb2xzIC8+XG4gICAgPC9RdWVyeUNsaWVudFByb3ZpZGVyPlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBNeUFwcDtcbiJdLCJuYW1lcyI6WyJDaGFrcmFQcm92aWRlciIsIlF1ZXJ5Q2xpZW50UHJvdmlkZXIiLCJSZWFjdFF1ZXJ5RGV2dG9vbHMiLCJ0aGVtZSIsIlNpZGViYXJEcmF3ZXJQcm92aWRlciIsIm1ha2VTZXJ2ZXIiLCJxdWVyeUNsaWVudCIsIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwiY2xpZW50Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./src/services/mirage/index.ts":
+/*!**************************************!*\
+  !*** ./src/services/mirage/index.ts ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"makeServer\": () => (/* binding */ makeServer)\n/* harmony export */ });\n/* harmony import */ var miragejs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! miragejs */ \"miragejs\");\n/* harmony import */ var miragejs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(miragejs__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! faker */ \"faker\");\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(faker__WEBPACK_IMPORTED_MODULE_1__);\n/* eslint-disable import/no-extraneous-dependencies */ \n\nfunction makeServer() {\n    const server = (0,miragejs__WEBPACK_IMPORTED_MODULE_0__.createServer)({\n        // O serializer permite que criemos um Model estruturado. Caso um model tenha relacionamento com outro podemos encadear a informação {id: 1, name: 'xxx', ...., address: { street: 'xxx', city: 'xxx', ...}} O ActiveModel é quem permite realizar essa estruturação.\n        serializers: {\n            application: miragejs__WEBPACK_IMPORTED_MODULE_0__.ActiveModelSerializer\n        },\n        models: {\n            user: miragejs__WEBPACK_IMPORTED_MODULE_0__.Model.extend({\n            })\n        },\n        // factories são utilizadas para gerar dados em massa, podendo utilizar um contador, por exemplo, para gerar 200 usuários com o texto \"usuario1, 2, 3...200\"\n        factories: {\n            user: miragejs__WEBPACK_IMPORTED_MODULE_0__.Factory.extend({\n                // todo campo de factory recebe um índice que é um número. Podemos ter acesso a esse número para criar itens únicos com números incrementais.\n                name (i) {\n                    return `User${i + 1}`; // O primeiro índice é 0\n                },\n                email () {\n                    return faker__WEBPACK_IMPORTED_MODULE_1___default().internet.email().toLocaleLowerCase(); // Utilizamos a biblioteca faker para criar um email único para cada usuário\n                },\n                createdAt () {\n                    return faker__WEBPACK_IMPORTED_MODULE_1___default().date.recent(10);\n                // utilizando o faker para criar uma data recente nos últimos 10 dias.\n                }\n            })\n        },\n        // cria dados assim que o servidor for inicializado para não vir sem nenhum dado fake\n        seeds (sv) {\n            sv.createList('user', 200);\n        },\n        routes () {\n            this.namespace = 'api';\n            this.timing = 100; // Demora para simular uma chamada na internet, ou DB\n            // Por padrão o mirage não trás uma paginação automática, para isso temos que fazer nossa lógica de paginação. O método get recebe uma função como segundo parâmetro.\n            // eslint-disable-next-line func-names\n            this.get('/users', function(schema, request) {\n                // eslint-disable-next-line camelcase\n                const { page =1 , per_page =10  } = request.queryParams; // Pega da requisição a página e a quantidade, os parâmetros são os 10 primeiros da primeira página\n                const total = schema.all('user').length; // Obtendo o total de registros no schema.\n                const pageStart = (Number(page) - 1) * Number(per_page); // Por padrão os parâmetros de uma query vem em string. Os usuários vão começar no registro número da pág menos 1 q é o registro no momento vezes a quantidade de exibição por registros.\n                const pageEnd = pageStart + Number(per_page);\n                const users = this.serialize(schema.all('user')).users.slice(pageStart, pageEnd);\n                return new miragejs__WEBPACK_IMPORTED_MODULE_0__.Response(200, {\n                    'x-total-count': String(total)\n                }, {\n                    users\n                });\n            });\n            this.get('/users/:id');\n            this.post('/users');\n            this.namespace = ''; // Resetar as rotas para não ser igual ao API do Next\n            this.passthrough(); // Todas as chamadas a rota 'api' vão passar pelo mirageJs e caso não tenha correspondência ele vai passar para a 'api' do next\n        }\n    });\n    return server;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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IndlYnBhY2s6Ly9kYXNoZ28vLi9zcmMvc2VydmljZXMvbWlyYWdlL2luZGV4LnRzPzRmMWEiXSwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgaW1wb3J0L25vLWV4dHJhbmVvdXMtZGVwZW5kZW5jaWVzICovXG5pbXBvcnQge1xuICBjcmVhdGVTZXJ2ZXIsXG4gIEZhY3RvcnksXG4gIE1vZGVsLFxuICBSZXNwb25zZSxcbiAgQWN0aXZlTW9kZWxTZXJpYWxpemVyLFxufSBmcm9tICdtaXJhZ2Vqcyc7XG5pbXBvcnQgZmFrZXIgZnJvbSAnZmFrZXInO1xuXG5pbnRlcmZhY2UgVXNlciB7XG4gIG5hbWU6IHN0cmluZztcbiAgZW1haWw6IHN0cmluZztcbiAgY3JlYXRlZF9hdDogc3RyaW5nO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gbWFrZVNlcnZlcigpIHtcbiAgY29uc3Qgc2VydmVyID0gY3JlYXRlU2VydmVyKHtcbiAgICAvLyBPIHNlcmlhbGl6ZXIgcGVybWl0ZSBxdWUgY3JpZW1vcyB1bSBNb2RlbCBlc3RydXR1cmFkby4gQ2FzbyB1bSBtb2RlbCB0ZW5oYSByZWxhY2lvbmFtZW50byBjb20gb3V0cm8gcG9kZW1vcyBlbmNhZGVhciBhIGluZm9ybWHDp8OjbyB7aWQ6IDEsIG5hbWU6ICd4eHgnLCAuLi4uLCBhZGRyZXNzOiB7IHN0cmVldDogJ3h4eCcsIGNpdHk6ICd4eHgnLCAuLi59fSBPIEFjdGl2ZU1vZGVsIMOpIHF1ZW0gcGVybWl0ZSByZWFsaXphciBlc3NhIGVzdHJ1dHVyYcOnw6NvLlxuICAgIHNlcmlhbGl6ZXJzOiB7XG4gICAgICBhcHBsaWNhdGlvbjogQWN0aXZlTW9kZWxTZXJpYWxpemVyLFxuICAgIH0sXG5cbiAgICBtb2RlbHM6IHtcbiAgICAgIHVzZXI6IE1vZGVsLmV4dGVuZDxQYXJ0aWFsPFVzZXI+Pih7fSksXG4gICAgfSxcblxuICAgIC8vIGZhY3RvcmllcyBzw6NvIHV0aWxpemFkYXMgcGFyYSBnZXJhciBkYWRvcyBlbSBtYXNzYSwgcG9kZW5kbyB1dGlsaXphciB1bSBjb250YWRvciwgcG9yIGV4ZW1wbG8sIHBhcmEgZ2VyYXIgMjAwIHVzdcOhcmlvcyBjb20gbyB0ZXh0byBcInVzdWFyaW8xLCAyLCAzLi4uMjAwXCJcbiAgICBmYWN0b3JpZXM6IHtcbiAgICAgIHVzZXI6IEZhY3RvcnkuZXh0ZW5kKHtcbiAgICAgICAgLy8gdG9kbyBjYW1wbyBkZSBmYWN0b3J5IHJlY2ViZSB1bSDDrW5kaWNlIHF1ZSDDqSB1bSBuw7ptZXJvLiBQb2RlbW9zIHRlciBhY2Vzc28gYSBlc3NlIG7Dum1lcm8gcGFyYSBjcmlhciBpdGVucyDDum5pY29zIGNvbSBuw7ptZXJvcyBpbmNyZW1lbnRhaXMuXG4gICAgICAgIG5hbWUoaSkge1xuICAgICAgICAgIHJldHVybiBgVXNlciR7aSArIDF9YDsgLy8gTyBwcmltZWlybyDDrW5kaWNlIMOpIDBcbiAgICAgICAgfSxcbiAgICAgICAgZW1haWwoKSB7XG4gICAgICAgICAgcmV0dXJuIGZha2VyLmludGVybmV0LmVtYWlsKCkudG9Mb2NhbGVMb3dlckNhc2UoKTsgLy8gVXRpbGl6YW1vcyBhIGJpYmxpb3RlY2EgZmFrZXIgcGFyYSBjcmlhciB1bSBlbWFpbCDDum5pY28gcGFyYSBjYWRhIHVzdcOhcmlvXG4gICAgICAgIH0sXG4gICAgICAgIGNyZWF0ZWRBdCgpIHtcbiAgICAgICAgICByZXR1cm4gZmFrZXIuZGF0ZS5yZWNlbnQoMTApO1xuICAgICAgICAgIC8vIHV0aWxpemFuZG8gbyBmYWtlciBwYXJhIGNyaWFyIHVtYSBkYXRhIHJlY2VudGUgbm9zIMO6bHRpbW9zIDEwIGRpYXMuXG4gICAgICAgIH0sXG4gICAgICB9KSxcbiAgICB9LFxuXG4gICAgLy8gY3JpYSBkYWRvcyBhc3NpbSBxdWUgbyBzZXJ2aWRvciBmb3IgaW5pY2lhbGl6YWRvIHBhcmEgbsOjbyB2aXIgc2VtIG5lbmh1bSBkYWRvIGZha2VcbiAgICBzZWVkcyhzdikge1xuICAgICAgc3YuY3JlYXRlTGlzdCgndXNlcicsIDIwMCk7XG4gICAgfSxcblxuICAgIHJvdXRlcygpIHtcbiAgICAgIHRoaXMubmFtZXNwYWNlID0gJ2FwaSc7XG4gICAgICB0aGlzLnRpbWluZyA9IDEwMDsgLy8gRGVtb3JhIHBhcmEgc2ltdWxhciB1bWEgY2hhbWFkYSBuYSBpbnRlcm5ldCwgb3UgREJcblxuICAgICAgLy8gUG9yIHBhZHLDo28gbyBtaXJhZ2UgbsOjbyB0csOhcyB1bWEgcGFnaW5hw6fDo28gYXV0b23DoXRpY2EsIHBhcmEgaXNzbyB0ZW1vcyBxdWUgZmF6ZXIgbm9zc2EgbMOzZ2ljYSBkZSBwYWdpbmHDp8Ojby4gTyBtw6l0b2RvIGdldCByZWNlYmUgdW1hIGZ1bsOnw6NvIGNvbW8gc2VndW5kbyBwYXLDom1ldHJvLlxuICAgICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZXNcbiAgICAgIHRoaXMuZ2V0KCcvdXNlcnMnLCBmdW5jdGlvbiAoc2NoZW1hLCByZXF1ZXN0KSB7XG4gICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBjYW1lbGNhc2VcbiAgICAgICAgY29uc3QgeyBwYWdlID0gMSwgcGVyX3BhZ2UgPSAxMCB9ID0gcmVxdWVzdC5xdWVyeVBhcmFtczsgLy8gUGVnYSBkYSByZXF1aXNpw6fDo28gYSBww6FnaW5hIGUgYSBxdWFudGlkYWRlLCBvcyBwYXLDom1ldHJvcyBzw6NvIG9zIDEwIHByaW1laXJvcyBkYSBwcmltZWlyYSBww6FnaW5hXG5cbiAgICAgICAgY29uc3QgdG90YWwgPSBzY2hlbWEuYWxsKCd1c2VyJykubGVuZ3RoOyAvLyBPYnRlbmRvIG8gdG90YWwgZGUgcmVnaXN0cm9zIG5vIHNjaGVtYS5cblxuICAgICAgICBjb25zdCBwYWdlU3RhcnQgPSAoTnVtYmVyKHBhZ2UpIC0gMSkgKiBOdW1iZXIocGVyX3BhZ2UpOyAvLyBQb3IgcGFkcsOjbyBvcyBwYXLDom1ldHJvcyBkZSB1bWEgcXVlcnkgdmVtIGVtIHN0cmluZy4gT3MgdXN1w6FyaW9zIHbDo28gY29tZcOnYXIgbm8gcmVnaXN0cm8gbsO6bWVybyBkYSBww6FnIG1lbm9zIDEgcSDDqSBvIHJlZ2lzdHJvIG5vIG1vbWVudG8gdmV6ZXMgYSBxdWFudGlkYWRlIGRlIGV4aWJpw6fDo28gcG9yIHJlZ2lzdHJvcy5cblxuICAgICAgICBjb25zdCBwYWdlRW5kID0gcGFnZVN0YXJ0ICsgTnVtYmVyKHBlcl9wYWdlKTtcblxuICAgICAgICBjb25zdCB1c2VycyA9IHRoaXMuc2VyaWFsaXplKHNjaGVtYS5hbGwoJ3VzZXInKSkudXNlcnMuc2xpY2UoXG4gICAgICAgICAgcGFnZVN0YXJ0LFxuICAgICAgICAgIHBhZ2VFbmQsXG4gICAgICAgICk7XG5cbiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZSgyMDAsIHsgJ3gtdG90YWwtY291bnQnOiBTdHJpbmcodG90YWwpIH0sIHsgdXNlcnMgfSk7XG4gICAgICB9KTtcblxuICAgICAgdGhpcy5nZXQoJy91c2Vycy86aWQnKTtcbiAgICAgIHRoaXMucG9zdCgnL3VzZXJzJyk7XG5cbiAgICAgIHRoaXMubmFtZXNwYWNlID0gJyc7IC8vIFJlc2V0YXIgYXMgcm90YXMgcGFyYSBuw6NvIHNlciBpZ3VhbCBhbyBBUEkgZG8gTmV4dFxuICAgICAgdGhpcy5wYXNzdGhyb3VnaCgpOyAvLyBUb2RhcyBhcyBjaGFtYWRhcyBhIHJvdGEgJ2FwaScgdsOjbyBwYXNzYXIgcGVsbyBtaXJhZ2VKcyBlIGNhc28gbsOjbyB0ZW5oYSBjb3JyZXNwb25kw6puY2lhIGVsZSB2YWkgcGFzc2FyIHBhcmEgYSAnYXBpJyBkbyBuZXh0XG4gICAgfSxcbiAgfSk7XG5cbiAgcmV0dXJuIHNlcnZlcjtcbn1cbiJdLCJuYW1lcyI6WyJjcmVhdGVTZXJ2ZXIiLCJGYWN0b3J5IiwiTW9kZWwiLCJSZXNwb25zZSIsIkFjdGl2ZU1vZGVsU2VyaWFsaXplciIsImZha2VyIiwibWFrZVNlcnZlciIsInNlcnZlciIsInNlcmlhbGl6ZXJzIiwiYXBwbGljYXRpb24iLCJtb2RlbHMiLCJ1c2VyIiwiZXh0ZW5kIiwiZmFjdG9yaWVzIiwibmFtZSIsImkiLCJlbWFpbCIsImludGVybmV0IiwidG9Mb2NhbGVMb3dlckNhc2UiLCJjcmVhdGVkQXQiLCJkYXRlIiwicmVjZW50Iiwic2VlZHMiLCJzdiIsImNyZWF0ZUxpc3QiLCJyb3V0ZXMiLCJuYW1lc3BhY2UiLCJ0aW1pbmciLCJnZXQiLCJzY2hlbWEiLCJyZXF1ZXN0IiwicGFnZSIsInBlcl9wYWdlIiwicXVlcnlQYXJhbXMiLCJ0b3RhbCIsImFsbCIsImxlbmd0aCIsInBhZ2VTdGFydCIsIk51bWJlciIsInBhZ2VFbmQiLCJ1c2VycyIsInNlcmlhbGl6ZSIsInNsaWNlIiwiU3RyaW5nIiwicG9zdCIsInBhc3N0aHJvdWdoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/services/mirage/index.ts\n");
+
+/***/ }),
+
+/***/ "./src/services/queryClient.ts":
+/*!*************************************!*\
+  !*** ./src/services/queryClient.ts ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"queryClient\": () => (/* binding */ queryClient)\n/* harmony export */ });\n/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-query */ \"react-query\");\n/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_query__WEBPACK_IMPORTED_MODULE_0__);\n\nconst queryClient = new react_query__WEBPACK_IMPORTED_MODULE_0__.QueryClient();\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2VydmljZXMvcXVlcnlDbGllbnQudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQXlDO0FBRWxDLEtBQUssQ0FBQ0MsV0FBVyxHQUFHLEdBQUcsQ0FBQ0Qsb0RBQVciLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kYXNoZ28vLi9zcmMvc2VydmljZXMvcXVlcnlDbGllbnQudHM/NTNmMCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBRdWVyeUNsaWVudCB9IGZyb20gJ3JlYWN0LXF1ZXJ5JztcblxuZXhwb3J0IGNvbnN0IHF1ZXJ5Q2xpZW50ID0gbmV3IFF1ZXJ5Q2xpZW50KCk7XG4iXSwibmFtZXMiOlsiUXVlcnlDbGllbnQiLCJxdWVyeUNsaWVudCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/services/queryClient.ts\n");
+
+/***/ }),
+
+/***/ "./src/styles/theme.ts":
+/*!*****************************!*\
+  !*** ./src/styles/theme.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"theme\": () => (/* binding */ theme)\n/* harmony export */ });\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst theme = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_0__.extendTheme)({\n    fonts: {\n        heading: 'Roboto',\n        body: 'Roboto'\n    },\n    styles: {\n        global: {\n            body: {\n                bg: 'gray.900',\n                color: 'gray.50'\n            }\n        }\n    }\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL3RoZW1lLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUE4QztBQUV2QyxLQUFLLENBQUNDLEtBQUssR0FBR0QsNkRBQVcsQ0FBQyxDQUFDO0lBQ2hDRSxLQUFLLEVBQUUsQ0FBQztRQUNOQyxPQUFPLEVBQUUsQ0FBUTtRQUNqQkMsSUFBSSxFQUFFLENBQVE7SUFDaEIsQ0FBQztJQUNEQyxNQUFNLEVBQUUsQ0FBQztRQUNQQyxNQUFNLEVBQUUsQ0FBQztZQUNQRixJQUFJLEVBQUUsQ0FBQztnQkFDTEcsRUFBRSxFQUFFLENBQVU7Z0JBQ2RDLEtBQUssRUFBRSxDQUFTO1lBQ2xCLENBQUM7UUFDSCxDQUFDO0lBQ0gsQ0FBQztBQUNILENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kYXNoZ28vLi9zcmMvc3R5bGVzL3RoZW1lLnRzPzUxNjEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZXh0ZW5kVGhlbWUgfSBmcm9tICdAY2hha3JhLXVpL3JlYWN0JztcblxuZXhwb3J0IGNvbnN0IHRoZW1lID0gZXh0ZW5kVGhlbWUoe1xuICBmb250czoge1xuICAgIGhlYWRpbmc6ICdSb2JvdG8nLFxuICAgIGJvZHk6ICdSb2JvdG8nLFxuICB9LFxuICBzdHlsZXM6IHtcbiAgICBnbG9iYWw6IHtcbiAgICAgIGJvZHk6IHtcbiAgICAgICAgYmc6ICdncmF5LjkwMCcsXG4gICAgICAgIGNvbG9yOiAnZ3JheS41MCcsXG4gICAgICB9LFxuICAgIH0sXG4gIH0sXG59KTtcbiJdLCJuYW1lcyI6WyJleHRlbmRUaGVtZSIsInRoZW1lIiwiZm9udHMiLCJoZWFkaW5nIiwiYm9keSIsInN0eWxlcyIsImdsb2JhbCIsImJnIiwiY29sb3IiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/theme.ts\n");
+
+/***/ }),
+
+/***/ "@chakra-ui/react":
+/*!***********************************!*\
+  !*** external "@chakra-ui/react" ***!
+  \***********************************/
+/***/ ((module) => {
+
+module.exports = require("@chakra-ui/react");
+
+/***/ }),
+
+/***/ "faker":
+/*!************************!*\
+  !*** external "faker" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("faker");
+
+/***/ }),
+
+/***/ "miragejs":
+/*!***************************!*\
+  !*** external "miragejs" ***!
+  \***************************/
+/***/ ((module) => {
+
+module.exports = require("miragejs");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-query":
+/*!******************************!*\
+  !*** external "react-query" ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = require("react-query");
+
+/***/ }),
+
+/***/ "react-query/devtools":
+/*!***************************************!*\
+  !*** external "react-query/devtools" ***!
+  \***************************************/
+/***/ ((module) => {
+
+module.exports = require("react-query/devtools");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./src/pages/_app.tsx"));
+module.exports = __webpack_exports__;
+
+})();
